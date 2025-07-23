@@ -48,9 +48,6 @@ font-weight: bold;
     margin-top: 30px;
 }
 
-.text{
-    
-}
 
 .img{
     width: 200px;
@@ -67,6 +64,11 @@ font-weight: bold;
 .dark3{
     color: #727272;
 }
+
+.text{
+    color: #FF900E;
+}
+
 
 .btn-color{
     background-color:#FF900E ;
@@ -108,6 +110,163 @@ font-weight: bold;
     margin-top: 20px;
 }
 
+
+/* <!-- main-area design start --> */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+  .abid{
+        width: 45%;
+
+  }
+
+/* quick section is start */
+
+.first-section-quick{
+display: flex;
+text-align: center;
+margin-top: 80px;
+
+
+}
+
+.quick-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+
+}
+
+.quick-img-container img{
+}
+
+  
+.quick-text-container{
+    width: 500px;
+    height: 300px;
+    border: 2px solid green;
+    margin: auto;
+}
+
+
+.quick-text-container h1{
+font-size: 2.5rem;
+}
+
+/* <!-- feature section start --> */
+
+.feature-parent{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.feature-child-text{
+    width: 45%;
+    margin-top: 30px;
+border: 3px solid red;
+}
+
+
+.feature-title{
+font-weight: bold;
+font-size: 40px;
+}
+.feature-img{
+    width: 50%;
+    margin-top: 30px;
+    border: 3px solid greenyellow;
+
+
+
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.experience{
+    background-color: #FF900E;
+    color: white;
+    width:300px ;
+    height: 150px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 200px;
+margin-bottom: -150px;
+
+}
+
+.experience h1,h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* section-2 some-section start*/
+
+.section-2{
+    max-width: 1440px;
+    border: 4px solid red;
+}
+
+
+.card-box{
+    display: flex;
+    justify-content: center;
+gap: 70px;
+
+}
+
+.card-box .card1{
+    width: 250px;
+    height: 150px;
+    border:3px solid #FF900E;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 7px;
+
+}
+
+.card-box .card1 img, h1, h5{
+    margin: 0;
+    padding: 0;
+}
+
+/* Sponsors section desingn start */
+
+.sponsors-parent{
+    width: 100%;
+    border: 3px solid red;
+}
+
+.explain-sponsor{
+    border: 2px solid greenyellow;
+    margin: auto;
+}
+
+.sponsor-parent img{
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive design area */
 
 @media screen and (max-width:575px) {
@@ -143,9 +302,18 @@ font-size: 2.5rem ;
     font-size: 2rem;
 }
 
-.btn-primary{
+/* .btn-primary{
     width: 50%;
+    padding: 25px 25px;
+} */
+
+.quick-img-container img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
+
+
+
 
 }
 
